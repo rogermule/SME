@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="12eb6203-d68c-4f96-a040-873731b32446" name="Default" comment="" />
+    <ignored path="SMS.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="SMS" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Participate.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CONTROLLER/Participate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.50751877">
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+              <folding>
+                <element signature="e#601#665#0#PHP" expanded="false" />
+                <element signature="e#861#983#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/VIEW/html/Login/SignUp.php" />
+        <option value="$PROJECT_DIR$/MODEL/User_Type.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/ADMIN/User_Lists.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/SME/SME_Security.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/SME/index.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/SME/SME_Header.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/IU/Admin_Menu2.html" />
+        <option value="$PROJECT_DIR$/VIEW/html/IU/Require.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/IU/IU_Security.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/SME/Require.php" />
+        <option value="$PROJECT_DIR$/CONTROLLER/User_Edit_Profile.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/IU/IU_Header.php" />
+        <option value="$PROJECT_DIR$/MODEL/Order.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/Login/Login.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/ADMIN/Delete_User.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/SME/SME_Edit_Profile.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/IU/Order_Product.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/IU/IU_Edit_Profile.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/IU/Order_List.php" />
+        <option value="$PROJECT_DIR$/CONTROLLER/IU_Controller.php" />
+        <option value="$PROJECT_DIR$/CONTROLLER/SME_Add_Products.php" />
+        <option value="$PROJECT_DIR$/CONTROLLER/SME_Delete_Product.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/SME/Manage_Products.php" />
+        <option value="$PROJECT_DIR$/CONTROLLER/SME_Reject.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/SME/Index.php" />
+        <option value="$PROJECT_DIR$/MODEL/Notification.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/IU/Index.php" />
+        <option value="$PROJECT_DIR$/CONTROLLER/IU_Order_Products.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/SME/Notifications.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/IU/IU_Menu.html" />
+        <option value="$PROJECT_DIR$/VIEW/html/SME/Manage_Orders.php" />
+        <option value="$PROJECT_DIR$/CONTROLLER/SME_Accept.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/IU/Notifications.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/SME/Delete_Product.php" />
+        <option value="$PROJECT_DIR$/MODEL/Bid_Offer.php" />
+        <option value="$PROJECT_DIR$/CONTROLLER/Admin_Add_Bid.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/SME/Participate.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/SME/SME_Menu.html" />
+        <option value="$PROJECT_DIR$/CONTROLLER/SME_Controller.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/SME/Participating_Bid.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/ADMIN/Single_Bid_Manager.php" />
+        <option value="$PROJECT_DIR$/CONTROLLER/Admin_Close_bid.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/ADMIN/Admin_Menu2.html" />
+        <option value="$PROJECT_DIR$/VIEW/html/SME/Bid_List.php" />
+        <option value="$PROJECT_DIR$/CONTROLLER/User_Controller.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/ADMIN/Closed_Bids.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/ADMIN/Bid_Manager.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/ADMIN/Product_Type_Manager.php" />
+        <option value="$PROJECT_DIR$/CONTROLLER/Admin_Controller.php" />
+        <option value="$PROJECT_DIR$/LOGIN.php" />
+        <option value="$PROJECT_DIR$/CONTROLLER/Participate.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Natnael zeleke" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VIEW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VIEW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VIEW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SME" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MODEL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CONTROLLER" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="org.jetbrains.plugins.terminal.TerminalOptionsConfigurable" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/afalagi project/backpafalagi/AFALAGI" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\SMS\VIEW\html\SME" />
+      <recent name="C:\xampp\htdocs\SMS\VIEW\html\IU" />
+      <recent name="C:\xampp\htdocs\SMS\VIEW\html\SMS" />
+      <recent name="C:\xampp\htdocs\SMS\CONTROLLER" />
+      <recent name="C:\xampp\htdocs\SMS\MODEL" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\SMS\MODEL" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12eb6203-d68c-4f96-a040-873731b32446" name="Default" comment="" />
+      <created>1465656323721</created>
+      <option name="number" value="Default" />
+      <updated>1465656323721</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23373677" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="14" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CONTROLLER/IU_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="106" column="5" selection-start-line="69" selection-start-column="4" selection-end-line="106" selection-end-column="5" />
+          <folding>
+            <element signature="e#55#147#0#PHP" expanded="false" />
+            <element signature="n#MakeOrder#0;n#IU_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#863#930#0#PHP" expanded="false" />
+            <element signature="e#1350#1456#0#PHP" expanded="false" />
+            <element signature="n#SearchSME#0;n#IU_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#1692#1794#0#PHP" expanded="false" />
+            <element signature="n#Get_All_Orders#0;n#IU_Controller#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/IU/Order_List.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/SME/SME_Header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.037037">
+          <caret line="24" column="60" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/ADMIN/Admin_Footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLER/User_Edit_Profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.333333">
+          <caret line="78" column="44" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLER/SME_Add_Products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.5925927">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/ADMIN/Delete_Product_Type.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.037037">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="86" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLER/Admin_Edit_Profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.703704">
+          <caret line="119" column="55" selection-start-line="119" selection-start-column="55" selection-end-line="119" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLER/SME_Reject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLER/SME_Delete_Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="74" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODEL/Notification.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="e#6#97#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/IU/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3703704">
+          <caret line="121" column="103" selection-start-line="121" selection-start-column="103" selection-end-line="121" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODEL/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.0">
+          <caret line="53" column="31" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/SME/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.0">
+          <caret line="12" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/IU/IU_Menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/IU/Order_Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6666667">
+          <caret line="58" column="58" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLER/IU_Order_Products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="90" column="65" selection-start-line="90" selection-start-column="65" selection-end-line="90" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLER/SME_Accept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/IU/Notifications.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.185185">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/SME/Notifications.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="90" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/SME/Manage_Products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.37037">
+          <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/SME/Manage_Orders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.37037">
+          <caret line="57" column="92" selection-start-line="57" selection-start-column="92" selection-end-line="57" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODEL/Bid_Offer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-36.37037">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLER/Admin_Add_Bid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/SME/Delete_Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="39" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/SME/SME_Menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLER/SME_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="213" column="48" selection-start-line="213" selection-start-column="48" selection-end-line="213" selection-end-column="48" />
+          <folding>
+            <element signature="e#57#159#0#PHP" expanded="false" />
+            <element signature="n#Get_All_Orders#0;n#SME_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#981#1105#0#PHP" expanded="false" />
+            <element signature="n#Add_Product_Type_To_List#0;n#SME_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#1363#1493#0#PHP" expanded="false" />
+            <element signature="n#Check_Product_Exists#0;n#SME_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#1773#1867#0#PHP" expanded="false" />
+            <element signature="n#Delete_User_Product#0;n#SME_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#2091#2218#0#PHP" expanded="false" />
+            <element signature="n#Get_Single_Order#0;n#SME_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#3127#3239#0#PHP" expanded="false" />
+            <element signature="n#Accept_Order#0;n#SME_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#3466#3530#0#PHP" expanded="false" />
+            <element signature="n#Reject_Order#0;n#SME_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#3757#3886#0#PHP" expanded="false" />
+            <element signature="n#Participate_On_Bid#0;n#SME_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#4273#4388#0#PHP" expanded="false" />
+            <element signature="n#Check_Participating#0;n#SME_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#4655#4779#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/ADMIN/Delete_Bid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/ADMIN/SectorManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="146" column="10" selection-start-line="91" selection-start-column="4" selection-end-line="146" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLER/Admin_Add_Sector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="112" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/Login/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.0">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/ADMIN/Single_Bid_Manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.0">
+          <caret line="48" column="65" selection-start-line="48" selection-start-column="65" selection-end-line="48" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/ADMIN/Admin_Menu2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6666665">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLER/User_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.888889">
+          <caret line="457" column="4" selection-start-line="457" selection-start-column="4" selection-end-line="457" selection-end-column="54" />
+          <folding>
+            <element signature="e#7#67#0#PHP" expanded="true" />
+            <element signature="n#logout#0;n#User_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#1630#1659#0#PHP" expanded="false" />
+            <element signature="n#getDb#0;n#User_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#1713#1745#0#PHP" expanded="false" />
+            <element signature="n#setDb#0;n#User_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#1801#1828#0#PHP" expanded="false" />
+            <element signature="n#getDbc#0;n#User_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#1884#1915#0#PHP" expanded="false" />
+            <element signature="n#setDbc#0;n#User_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#1975#2000#0#PHP" expanded="false" />
+            <element signature="n#getUser#0;n#User_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#2058#2088#0#PHP" expanded="false" />
+            <element signature="n#setUser#0;n#User_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#2152#2253#0#PHP" expanded="false" />
+            <element signature="n#getAllSectors#0;n#User_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#2447#2535#0#PHP" expanded="false" />
+            <element signature="n#getAllProductAndSectors#0;n#User_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#2933#3037#0#PHP" expanded="false" />
+            <element signature="n#getSingleSector#0;n#User_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#3249#3368#0#PHP" expanded="false" />
+            <element signature="e#3605#3708#0#PHP" expanded="false" />
+            <element signature="e#3908#3995#0#PHP" expanded="false" />
+            <element signature="n#getAllBids#0;n#User_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#4178#4270#0#PHP" expanded="false" />
+            <element signature="n#checkUserNameForSignUp#0;n#User_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#4505#4753#0#PHP" expanded="false" />
+            <element signature="e#5940#6065#0#PHP" expanded="false" />
+            <element signature="n#getAllUsers#0;n#User_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#6432#6514#0#PHP" expanded="false" />
+            <element signature="n#getUserProfile#0;n#User_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#7030#7161#0#PHP" expanded="false" />
+            <element signature="n#User_Edit_Profile#0;n#User_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#8249#8366#0#PHP" expanded="false" />
+            <element signature="n#User_Name_Exists_For_Edit#0;n#User_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#8707#8808#0#PHP" expanded="false" />
+            <element signature="n#Get_SME_Products#0;n#User_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#9392#9479#0#PHP" expanded="false" />
+            <element signature="n#Get_All_Products#0;n#User_Controller#0;n#!!top" expanded="false" />
+            <element signature="n#GetNotifications#0;n#User_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#11194#11293#0#PHP" expanded="false" />
+            <element signature="n#Set_Notification_Read#0;n#User_Controller#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/ADMIN/Closed_Bids.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.333333">
+          <caret line="61" column="53" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/ADMIN/Bid_Manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="100" column="35" selection-start-line="100" selection-start-column="35" selection-end-line="100" selection-end-column="35" />
+          <folding>
+            <element signature="e#466#1397#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/ADMIN/Product_Type_Manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3703704">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLER/Admin_Close_bid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3703704">
+          <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLER/Admin_Delete_Bid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.037037">
+          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
+          <folding>
+            <element signature="n#admin_redirect_success#0;n#!!top" expanded="false" />
+            <element signature="e#809#931#0#PHP" expanded="false" />
+            <element signature="n#admin_place_redirect#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLER/Admin_Delete_Product_Type.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLER/Admin_Delete_Sector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLER/Admin_Delete_User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="67" column="45" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/ADMIN/User_Lists.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.333334">
+          <caret line="82" column="17" selection-start-line="64" selection-start-column="16" selection-end-line="82" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLER/Admin_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.9629629">
+          <caret line="336" column="13" selection-start-line="336" selection-start-column="13" selection-end-line="336" selection-end-column="13" />
+          <folding>
+            <element signature="e#442#554#0#PHP" expanded="false" />
+            <element signature="n#Check_User_Name_For_Edit#0;n#Admin_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#926#1009#0#PHP" expanded="false" />
+            <element signature="n#Admin_Edit_Profile#0;n#Admin_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#1857#1939#0#PHP" expanded="false" />
+            <element signature="n#Add_Sector#0;n#Admin_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#2199#2299#0#PHP" expanded="false" />
+            <element signature="n#Sector_Exists#0;n#Admin_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#2619#2722#0#PHP" expanded="false" />
+            <element signature="n#Add_Product_Type#0;n#Admin_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#3079#3196#0#PHP" expanded="false" />
+            <element signature="n#Product_Type_Exists#0;n#Admin_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#3547#3698#0#PHP" expanded="false" />
+            <element signature="n#Delete_Sector#0;n#Admin_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#4227#4336#0#PHP" expanded="false" />
+            <element signature="n#Delete_Product_Type#0;n#Admin_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#4888#4962#0#PHP" expanded="false" />
+            <element signature="n#Add_Bid#0;n#Admin_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#5302#5384#0#PHP" expanded="false" />
+            <element signature="n#Delete_Bid#0;n#Admin_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#5901#5983#0#PHP" expanded="false" />
+            <element signature="n#Bid_Exists#0;n#Admin_Controller#0;n#!!top" expanded="false" />
+            <element signature="e#6280#6428#0#PHP" expanded="false" />
+            <element signature="n#Get_Bid_Participating_Users#0;n#Admin_Controller#0;n#!!top" expanded="false" />
+            <element signature="n#Close_Bid#0;n#Admin_Controller#0;n#!!top" expanded="false" />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="UPDATE user ..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..sector..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Product_Type..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..bid..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user_bid..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="Delete from ..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user_..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user_notification..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user_notification..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user_notification..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="Delete from ..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user_order..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user_order..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="Delete from ..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..user_..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="Delete from ..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="select UB.Id..user_bid..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="UPDATE bid s..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="select B.Id ..bid..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1465940257093" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGIN.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/SME/Participating_Bid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-34.666668">
+          <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/SME/Require.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/SME/SME_Edit_Profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.185184">
+          <caret line="123" column="23" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/SME/Bid_List.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="36.666668">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/SME/Participate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="8.0">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLER/Participate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50751877">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding>
+            <element signature="e#601#665#0#PHP" expanded="false" />
+            <element signature="e#861#983#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

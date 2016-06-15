@@ -1,0 +1,367 @@
+
+.back_ground_addis{
+    background-image: url("../html/img/addis_night_view.jpg");
+
+}
+.border_raduis_0{
+    border-radius: 0;
+}
+
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.list-group-item:last-child {
+
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius:0;
+}
+.badge {
+
+    background-color: #ff0000;
+
+}
+
+
+a.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
+    color: #ffffff;
+    background-color: #ff0000;
+}
+.left_menu{
+
+
+    padding: 20px 20px;
+}
+
+.menu{
+    height: 30px;
+}
+
+
+
+
+.list-group-item div{
+     padding: 0;
+ }
+
+.list-group-item p{
+    margin-bottom: 2px;
+}
+
+.list-group-item{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+
+/*this will affect the navigations*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #E6E6E6;
+}
+.navbar-default {
+    border-color: rgb(66, 139, 202);
+    background-color: rgb(66, 139, 202);
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #FFFDFD;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: rgb(66, 139, 202);
+    background-color: #FFF;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #FFF;
+    background-color: transparent;
+}
+.navbar {
+    border-radius: 0;
+
+}
+
+/*this will affect the list of encoders and workers*/
+
+.list_container{
+    background-color: #f3f3f3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.list_header{
+    background-color: rgb(72, 152, 221);
+    color: #ffffff;
+}
+
+h1, h2, h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.panel-default {
+    border-color: #FFF;
+}
+.panel {
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(218, 218, 218, 0.60);
+}
+
+h4, h5, h6 {
+    margin-top:1px;
+    margin-bottom: 1px;
+}
+
+.number{
+    color: #000000;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.name{
+    color: #269abc;
+}
+.list-group-item{
+    transition: 0.1s;
+}
+.list-group-item:hover{
+
+    border-left: 3px solid #269abc;
+    background-color: #fbfbfb;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 10px 0px 0px;
+    line-height: normal;
+}
+
+.form-horizontal .left {
+    text-align: left;
+    color: #ee3000;
+    font-size: 16px;
+}
+
+
+/*this will affect the encoder */
+
+
+.encoder_menu{
+
+    font-size: 12px;
+}
+a.list-group-item:hover,
+a.list-group-item:focus {
+    text-decoration: none;
+    background-color: #bebebe;
+    color: white;
+}
+hr{
+    border-color: #000 -moz-use-text-color -moz-use-text-color;
+}
+
+
+
+
+/*this will affect the place holders*/
+.place_containers{
+    background-color: #f3f3f3;
+}
+
+
+.form_containers{
+
+}
+
+.list_header{
+    background-color: #273027;
+    color: #ffffff;
+}
+
+
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > th {
+    background-color: #b9b9b9;
+    color: white;
+     transition: 0.1s;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+    color: #ffffff;
+    background-color: rgba(98, 206, 103, 0.79);
+    border-color: #4aac4a;
+}
+
+.not_filled{
+    color: red;
+}
+
+/*this will affect colors*/
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+.gold_b{
+    background-color: #FFD700;
+    border: 1px solid #EAC607;
+}
+
+.gold{
+    color: gold;
+
+}
+
+.silver_b{
+    background-color: #c0c0c0;
+    border: 1px solid #aeaeae;
+}
+.silver{
+    color: #c0c0c0;
+}
+
+
+.bronze_b{
+    background-color: brown;
+    border: 1px solid #8a2323;
+}
+.bronze{
+    color: brown;
+}
+.indicator{
+    font-size: 20px;
+    padding: 2px 6px;
+}
+
+.m_p_0{
+    margin: 0px;
+    padding: 0px;
+}
+
+.clear_float{
+    float: none;
+    clear: both;
+}
+
+.f_17{
+    font-size: 17px;
+}
+
+.user_types{
+    padding: 8px;
+    margin-left: 10px;
+}
+
+.center_aligned{
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.text_right{
+    text-align: right;
+}
+.text_left{
+    text-align: left;
+}
+
+.search_query_con{
+    padding-top: 10px;
+}
+
+
+/*this will affect the generic serach result*/
+.result_con{
+    padding: 5px  10px;
+    border-bottom: 1px solid #e3e3e3;
+    cursor: pointer;
+    height: 80px;
+
+}
+.result_con:hover{
+    background-color: #fbfbfb;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.s_r_name{
+    transition: 0.2s;
+    color: rgba(13, 161, 13, 0.8);
+    font-size: 17px;
+}
+.s_r_name:hover{
+    color: rgba(0, 99, 241, 0.80);
+}
+
+.more{
+    font-size: 11px;
+}
+
+.service{
+    color: #949494;
+    font-size: 11px;
+}
+.breadcrumb {
+
+    margin-bottom: 10px;
+
+}
+.result_for{
+    font-size: 15px;
+    color: #c6c6c6;
+}
+
+.result_num{
+    font-size: 13px;
+    color: #385C9C;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+/*this will affect the more on companies*/
+
+.single_info{
+    transition: all 0.3s ease 0s;
+    border-bottom: 1px solid #E7E7E7;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.single_info:hover{
+   background-color: #f2f2f2;
+
+
+}
+.left_disc{
+    font-size: 12px;
+    color: #464AC8;
+    text-align: right;
+}
+
+label {
+
+
+    font-weight: 700;
+    font-size: 12px;
+    color: #3a728e;
+
+}
+
+
+
+
+
