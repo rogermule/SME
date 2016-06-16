@@ -18,7 +18,7 @@
 <body class="back_ground_addis">
 
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-	<a class="navbar-brand white">Project Name</a>
+	<a class="navbar-brand white">Micro-Enterprise System Admin</a>
 
 	<ul class="nav navbar-nav navbar-right">
 

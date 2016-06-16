@@ -545,7 +545,18 @@ class User_Controller{
 	}
 
 
+	function GetUserName($Winner){
+		$query = "SELECT User_Name FROM user WHERE Id='$Winner'";
+		$result = mysqli_query($this->getDbc(),$query);
 
+		if($result){
+			$results = mysqli_fetch_array($result,MYSQLI_ASSOC);
+			$name = $results['User_Name'];
+
+			return $name;
+		}
+		return false;
+	}
 
 }
 

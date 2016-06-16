@@ -411,7 +411,7 @@ class Admin_Controller extends User_Controller{
 						inner join
 					user as U on U.Id = UB.User_Id
 					where B.Id = '$Bid_Id'
-					order by UB.Bid_Amount DESC
+					order by UB.Bid_Amount ASC
 					limit 1";
 
 		$result2 = mysqli_query($this->getDbc(),$query2);
@@ -419,9 +419,16 @@ class Admin_Controller extends User_Controller{
 		$result2Arry = mysqli_fetch_array($result2,MYSQLI_ASSOC);
 		$winner_Id = $result2Arry['User_Id'];
 		$Bid_Name = $result2Arry['Bid_Name'];
+		$Bid_Id = $result2Arry["Bid_Id"];
 		$Action = "You Have Won the ".$Bid_Name." Bid";
 
-		
+		"UPDATE user
+			      SET User_Name='$this->User_Name',User_Password=sha1('$this->User_Password')
+			      WHERE Id='$this->User_ID'";
+
+
+		$updateQuery = "UPDATE bid SET Winner = '$winner_Id' WHERE Id='$Bid_Id'";
+		mysqli_query($this->getDbc(),$updateQuery);
 
 		$notification = new Notification($Action,$winner_Id);
 

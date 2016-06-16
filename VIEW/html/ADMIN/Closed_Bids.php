@@ -55,7 +55,10 @@ $Bids = $Admin->GetAllClosedBids();
 						$bid_Id = $bids['Id'];
 						$Opened_On = $bids['Opened_On'];
 						$Closed_On = $bids['Closed_On'];
-						$Winner = $bids['Winner'];
+
+						$Winner = $Admin->GetUserName($bids['Winner']);
+
+
 						?>
 						<tr>
 							<td><?php echo($count);?></td>

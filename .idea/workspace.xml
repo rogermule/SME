@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12eb6203-d68c-4f96-a040-873731b32446" name="Default" comment="" />
+    <list default="true" id="12eb6203-d68c-4f96-a040-873731b32446" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CONTROLLER/Admin_Controller.php" afterPath="$PROJECT_DIR$/CONTROLLER/Admin_Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CONTROLLER/User_Controller.php" afterPath="$PROJECT_DIR$/CONTROLLER/User_Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VIEW/css/Admin.css" afterPath="$PROJECT_DIR$/VIEW/css/Admin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VIEW/html/ADMIN/Admin_Header.php" afterPath="$PROJECT_DIR$/VIEW/html/ADMIN/Admin_Header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VIEW/html/ADMIN/Closed_Bids.php" afterPath="$PROJECT_DIR$/VIEW/html/ADMIN/Closed_Bids.php" />
+    </list>
     <ignored path="SMS.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,8 +32,8 @@
       <file leaf-file-name="Participate.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CONTROLLER/Participate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.423077">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state vertical-scroll-proportion="-7.1923075">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding>
                 <element signature="e#601#665#0#PHP" expanded="false" />
                 <element signature="e#861#983#0#PHP" expanded="false" />
@@ -35,178 +42,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Closed_Bids.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VIEW/html/ADMIN/Closed_Bids.php">
+      <file leaf-file-name="Admin_Menu2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VIEW/html/ADMIN/Admin_Menu2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5384617">
-              <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+            <state vertical-scroll-proportion="-2.6153846">
+              <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Single_Bid_Manager.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/VIEW/html/ADMIN/Single_Bid_Manager.php">
+      <file leaf-file-name="Admin.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/VIEW/css/Admin.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-28.115385">
-              <caret line="79" column="19" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.40689656">
+              <caret line="159" column="17" selection-start-line="159" selection-start-column="17" selection-end-line="159" selection-end-column="17" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Admin_Close_bid.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CONTROLLER/Admin_Close_bid.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.230769">
-              <caret line="80" column="38" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Admin_Controller.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CONTROLLER/Admin_Controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6039783">
-              <caret line="423" column="8" selection-start-line="423" selection-start-column="8" selection-end-line="423" selection-end-column="8" />
-              <folding>
-                <element signature="e#442#554#0#PHP" expanded="false" />
-                <element signature="n#Check_User_Name_For_Edit#0;n#Admin_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#926#1009#0#PHP" expanded="false" />
-                <element signature="n#Admin_Edit_Profile#0;n#Admin_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#1857#1939#0#PHP" expanded="false" />
-                <element signature="n#Add_Sector#0;n#Admin_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#2199#2299#0#PHP" expanded="false" />
-                <element signature="n#Sector_Exists#0;n#Admin_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#2619#2722#0#PHP" expanded="false" />
-                <element signature="n#Add_Product_Type#0;n#Admin_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#3079#3196#0#PHP" expanded="false" />
-                <element signature="n#Product_Type_Exists#0;n#Admin_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#3547#3698#0#PHP" expanded="false" />
-                <element signature="n#Delete_Sector#0;n#Admin_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#4227#4336#0#PHP" expanded="false" />
-                <element signature="n#Delete_Product_Type#0;n#Admin_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#4888#4962#0#PHP" expanded="false" />
-                <element signature="n#Add_Bid#0;n#Admin_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#5302#5384#0#PHP" expanded="false" />
-                <element signature="n#Delete_Bid#0;n#Admin_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#5901#5983#0#PHP" expanded="false" />
-                <element signature="n#Bid_Exists#0;n#Admin_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#6280#6428#0#PHP" expanded="false" />
-                <element signature="n#Get_Bid_Participating_Users#0;n#Admin_Controller#0;n#!!top" expanded="false" />
-                <marker date="1466046379829" expanded="true" signature="626:694" placeholder="SELECT * FRO... user" />
-                <marker date="1466046379829" expanded="true" signature="1351:1482" placeholder="UPDATE user " />
-                <marker date="1466046379829" expanded="true" signature="2027:2076" placeholder="INSERT INTO sector... " />
-                <marker date="1466046379829" expanded="true" signature="2392:2440" placeholder="SELECT * FRO... sector" />
-                <marker date="1466046379829" expanded="true" signature="2880:2956" placeholder="INSERT INTO Product_Type... " />
-                <marker date="1466046379829" expanded="true" signature="3314:3367" placeholder="SELECT * FRO... Product_Type" />
-                <marker date="1466046379829" expanded="true" signature="3883:3925" placeholder="DELETE FROM " />
-                <marker date="1466046379829" expanded="true" signature="4532:4586" placeholder="DELETE FROM " />
-                <marker date="1466046379829" expanded="true" signature="5079:5180" placeholder="INSERT INTO bid... " />
-                <marker date="1466046379829" expanded="true" signature="5563:5599" placeholder="DELETE FROM " />
-                <marker date="1466046379829" expanded="true" signature="6060:6101" placeholder="SELECT * FRO... bid" />
-                <marker date="1466046379829" expanded="true" signature="6616:6662" placeholder="DELETE FROM " />
-                <marker date="1466046379829" expanded="true" signature="6752:6801" placeholder="SELECT * FRO... user_bid" />
-                <marker date="1466046379829" expanded="true" signature="6976:7022" placeholder="Delete from " />
-                <marker date="1466046379829" expanded="true" signature="7131:7189" placeholder="SELECT * FRO... user_notification" />
-                <marker date="1466046379829" expanded="true" signature="7373:7437" placeholder="Delete from " />
-                <marker date="1466046379829" expanded="true" signature="7539:7593" placeholder="SELECT * FRO... user_order" />
-                <marker date="1466046379829" expanded="true" signature="7771:7822" placeholder="Delete from " />
-                <marker date="1466046379829" expanded="true" signature="7926:7979" placeholder="SELECT * FRO... user_product" />
-                <marker date="1466046379829" expanded="true" signature="8147:8188" placeholder="Delete from " />
-                <marker date="1466046379829" expanded="true" signature="8289:8327" placeholder="DELETE FROM " />
-                <marker date="1466046379829" expanded="true" signature="8853:9061" placeholder="select UB.Id... user_bid" />
-                <marker date="1466046379829" expanded="true" signature="9502:9567" placeholder="UPDATE bid s... " />
-                <marker date="1466046379829" expanded="true" signature="9676:9971" placeholder="select B.Id bid" />
-                <marker date="1466046379829" expanded="true" signature="10322:10385" placeholder="INSERT INTO notification... " />
-                <marker date="1466046379829" expanded="true" signature="10506:10613" placeholder="INSERT INTO user_notification... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User_Controller.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CONTROLLER/User_Controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="22.23077">
-              <caret line="454" column="31" selection-start-line="454" selection-start-column="31" selection-end-line="454" selection-end-column="31" />
-              <folding>
-                <element signature="e#7#67#0#PHP" expanded="true" />
-                <element signature="n#logout#0;n#User_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#1630#1659#0#PHP" expanded="false" />
-                <element signature="n#getDb#0;n#User_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#1713#1745#0#PHP" expanded="false" />
-                <element signature="n#setDb#0;n#User_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#1801#1828#0#PHP" expanded="false" />
-                <element signature="n#getDbc#0;n#User_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#1884#1915#0#PHP" expanded="false" />
-                <element signature="n#setDbc#0;n#User_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#1975#2000#0#PHP" expanded="false" />
-                <element signature="n#getUser#0;n#User_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#2058#2088#0#PHP" expanded="false" />
-                <element signature="n#setUser#0;n#User_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#2152#2253#0#PHP" expanded="false" />
-                <element signature="n#getAllSectors#0;n#User_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#2447#2535#0#PHP" expanded="false" />
-                <element signature="n#getAllProductAndSectors#0;n#User_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#2933#3037#0#PHP" expanded="false" />
-                <element signature="n#getSingleSector#0;n#User_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#3249#3368#0#PHP" expanded="false" />
-                <element signature="e#3605#3708#0#PHP" expanded="false" />
-                <element signature="e#3908#3995#0#PHP" expanded="false" />
-                <element signature="n#getAllBids#0;n#User_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#4178#4270#0#PHP" expanded="false" />
-                <element signature="n#checkUserNameForSignUp#0;n#User_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#4505#4753#0#PHP" expanded="false" />
-                <element signature="e#5940#6065#0#PHP" expanded="false" />
-                <element signature="n#getAllUsers#0;n#User_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#6432#6514#0#PHP" expanded="false" />
-                <element signature="n#getUserProfile#0;n#User_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#7030#7161#0#PHP" expanded="false" />
-                <element signature="e#8249#8366#0#PHP" expanded="false" />
-                <element signature="n#User_Name_Exists_For_Edit#0;n#User_Controller#0;n#!!top" expanded="false" />
-                <element signature="e#8707#8808#0#PHP" expanded="false" />
-                <element signature="n#Get_SME_Products#0;n#User_Controller#0;n#!!top" expanded="false" />
-                <element signature="n#Get_All_Products#0;n#User_Controller#0;n#!!top" expanded="false" />
-                <element signature="n#GetNotifications#0;n#User_Controller#0;n#!!top" expanded="false" />
-                <element signature="n#Set_Notification_Read#0;n#User_Controller#0;n#!!top" expanded="false" />
-                <marker date="1465979078442" expanded="true" signature="605:696" placeholder="SELECT * fro... user" />
-                <marker date="1465979078442" expanded="true" signature="2301:2321" placeholder="select * fro... sector" />
-                <marker date="1465979078442" expanded="true" signature="2592:2805" placeholder="select PR.Id... product_type" />
-                <marker date="1465979078442" expanded="true" signature="3089:3131" placeholder="SELECT * fro... sector" />
-                <marker date="1465979078442" expanded="true" signature="3431:3487" placeholder="SELECT * FRO... product_type" />
-                <marker date="1465979078442" expanded="true" signature="3755:3791" placeholder="SELECT * fro... bid" />
-                <marker date="1465979078442" expanded="true" signature="4033:4050" placeholder="SELECT * FRO... bid" />
-                <marker date="1465979078442" expanded="true" signature="4328:4374" placeholder="SELECT * FRO... user" />
-                <marker date="1465979078442" expanded="true" signature="5214:5320" placeholder="INSERT INTO user... " />
-                <marker date="1465979078442" expanded="true" signature="5445:5566" placeholder="INSERT INTO user_profile... " />
-                <marker date="1465979078442" expanded="true" signature="6166:6208" placeholder="SELECT * fro... user" />
-                <marker date="1465979078442" expanded="true" signature="6268:6309" placeholder="SELECT * FRO... user" />
-                <marker date="1465979078442" expanded="true" signature="6563:6911" placeholder="select U.ID user" />
-                <marker date="1465979078442" expanded="true" signature="7634:7740" placeholder="UPDATE user_... " />
-                <marker date="1465979078442" expanded="true" signature="7834:7929" placeholder="UPDATE user " />
-                <marker date="1465979078442" expanded="true" signature="8438:8507" placeholder="SELECT * fro... user" />
-                <marker date="1465979078442" expanded="true" signature="8858:9324" placeholder="select U.Id user" />
-                <marker date="1465979078442" expanded="true" signature="9568:9594" placeholder="SELECT * FRO... product_type" />
-                <marker date="1465979078442" expanded="true" signature="10111:10174" placeholder="INSERT INTO notification... " />
-                <marker date="1465979078442" expanded="true" signature="10295:10403" placeholder="INSERT INTO user_notification... " />
-                <marker date="1465979078442" expanded="true" signature="10863:11125" placeholder="select N.Act... " />
-                <marker date="1465979078442" expanded="true" signature="11396:11462" placeholder="update user_... " />
-                <marker date="1465979078442" expanded="true" signature="11706:11740" placeholder="SELECT * FRO... bid" />
-                <marker date="1465979078442" expanded="true" signature="11986:12044" placeholder="SELECT * FRO... bid" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/VIEW/html/Login/SignUp.php" />
-        <option value="$PROJECT_DIR$/MODEL/User_Type.php" />
         <option value="$PROJECT_DIR$/VIEW/html/ADMIN/User_Lists.php" />
         <option value="$PROJECT_DIR$/VIEW/html/SME/SME_Security.php" />
         <option value="$PROJECT_DIR$/VIEW/html/SME/index.php" />
@@ -249,13 +112,15 @@
         <option value="$PROJECT_DIR$/CONTROLLER/Admin_Close_bid.php" />
         <option value="$PROJECT_DIR$/VIEW/html/ADMIN/Admin_Menu2.html" />
         <option value="$PROJECT_DIR$/VIEW/html/SME/Bid_List.php" />
-        <option value="$PROJECT_DIR$/CONTROLLER/User_Controller.php" />
         <option value="$PROJECT_DIR$/VIEW/html/ADMIN/Bid_Manager.php" />
         <option value="$PROJECT_DIR$/VIEW/html/ADMIN/Product_Type_Manager.php" />
         <option value="$PROJECT_DIR$/LOGIN.php" />
         <option value="$PROJECT_DIR$/CONTROLLER/Participate.php" />
+        <option value="$PROJECT_DIR$/CONTROLLER/User_Controller.php" />
         <option value="$PROJECT_DIR$/VIEW/html/ADMIN/Closed_Bids.php" />
         <option value="$PROJECT_DIR$/CONTROLLER/Admin_Controller.php" />
+        <option value="$PROJECT_DIR$/VIEW/html/ADMIN/Admin_Header.php" />
+        <option value="$PROJECT_DIR$/VIEW/css/Admin.css" />
       </list>
     </option>
   </component>
@@ -299,6 +164,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -373,7 +239,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -384,7 +249,6 @@
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/afalagi project/backpafalagi/AFALAGI" />
-    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -491,27 +355,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CONTROLLER/IU_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0">
-          <caret line="106" column="5" selection-start-line="69" selection-start-column="4" selection-end-line="106" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEW/html/IU/Order_List.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.0">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEW/html/SME/SME_Header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.037037">
-          <caret line="24" column="60" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VIEW/html/ADMIN/Admin_Footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -537,13 +380,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.037037">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="86" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CONTROLLER/Admin_Edit_Profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.703704">
-          <caret line="119" column="55" selection-start-line="119" selection-start-column="55" selection-end-line="119" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -725,20 +561,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VIEW/html/ADMIN/Admin_Menu2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6666665">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/VIEW/html/ADMIN/Bid_Manager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.0">
           <caret line="100" column="35" selection-start-line="100" selection-start-column="35" selection-end-line="100" selection-end-column="35" />
-          <folding>
-            <element signature="e#466#1397#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -788,7 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-34.666668">
           <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -810,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="36.666668">
           <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -818,25 +642,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="8.0">
           <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CONTROLLER/Participate.php">
+    <entry file="file://$PROJECT_DIR$/VIEW/html/ADMIN/Edit_Admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.423077">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="e#601#665#0#PHP" expanded="false" />
-            <element signature="e#861#983#0#PHP" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="50" column="104" selection-start-line="50" selection-start-column="104" selection-end-line="50" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLER/Admin_Edit_Profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029310346">
+          <caret line="119" column="55" selection-start-line="119" selection-start-column="55" selection-end-line="119" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CONTROLLER/User_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="22.23077">
-          <caret line="454" column="31" selection-start-line="454" selection-start-column="31" selection-end-line="454" selection-end-column="31" />
+        <state vertical-scroll-proportion="-5.3962264">
+          <caret line="553" column="39" selection-start-line="553" selection-start-column="30" selection-end-line="553" selection-end-column="39" />
           <folding>
             <element signature="e#7#67#0#PHP" expanded="true" />
             <element signature="n#logout#0;n#User_Controller#0;n#!!top" expanded="false" />
@@ -877,67 +704,43 @@
             <element signature="n#Get_All_Products#0;n#User_Controller#0;n#!!top" expanded="false" />
             <element signature="n#GetNotifications#0;n#User_Controller#0;n#!!top" expanded="false" />
             <element signature="n#Set_Notification_Read#0;n#User_Controller#0;n#!!top" expanded="false" />
-            <marker date="1465979078442" expanded="true" signature="605:696" placeholder="SELECT * fro... user" />
-            <marker date="1465979078442" expanded="true" signature="2301:2321" placeholder="select * fro... sector" />
-            <marker date="1465979078442" expanded="true" signature="2592:2805" placeholder="select PR.Id... product_type" />
-            <marker date="1465979078442" expanded="true" signature="3089:3131" placeholder="SELECT * fro... sector" />
-            <marker date="1465979078442" expanded="true" signature="3431:3487" placeholder="SELECT * FRO... product_type" />
-            <marker date="1465979078442" expanded="true" signature="3755:3791" placeholder="SELECT * fro... bid" />
-            <marker date="1465979078442" expanded="true" signature="4033:4050" placeholder="SELECT * FRO... bid" />
-            <marker date="1465979078442" expanded="true" signature="4328:4374" placeholder="SELECT * FRO... user" />
-            <marker date="1465979078442" expanded="true" signature="5214:5320" placeholder="INSERT INTO user... " />
-            <marker date="1465979078442" expanded="true" signature="5445:5566" placeholder="INSERT INTO user_profile... " />
-            <marker date="1465979078442" expanded="true" signature="6166:6208" placeholder="SELECT * fro... user" />
-            <marker date="1465979078442" expanded="true" signature="6268:6309" placeholder="SELECT * FRO... user" />
-            <marker date="1465979078442" expanded="true" signature="6563:6911" placeholder="select U.ID user" />
-            <marker date="1465979078442" expanded="true" signature="7634:7740" placeholder="UPDATE user_... " />
-            <marker date="1465979078442" expanded="true" signature="7834:7929" placeholder="UPDATE user " />
-            <marker date="1465979078442" expanded="true" signature="8438:8507" placeholder="SELECT * fro... user" />
-            <marker date="1465979078442" expanded="true" signature="8858:9324" placeholder="select U.Id user" />
-            <marker date="1465979078442" expanded="true" signature="9568:9594" placeholder="SELECT * FRO... product_type" />
-            <marker date="1465979078442" expanded="true" signature="10111:10174" placeholder="INSERT INTO notification... " />
-            <marker date="1465979078442" expanded="true" signature="10295:10403" placeholder="INSERT INTO user_notification... " />
-            <marker date="1465979078442" expanded="true" signature="10863:11125" placeholder="select N.Act... " />
-            <marker date="1465979078442" expanded="true" signature="11396:11462" placeholder="update user_... " />
-            <marker date="1465979078442" expanded="true" signature="11706:11740" placeholder="SELECT * FRO... bid" />
-            <marker date="1465979078442" expanded="true" signature="11986:12044" placeholder="SELECT * FRO... bid" />
+            <marker date="1466048281858" expanded="true" signature="605:696" placeholder="SELECT * fro... user" />
+            <marker date="1466048281858" expanded="true" signature="2301:2321" placeholder="select * fro... sector" />
+            <marker date="1466048281858" expanded="true" signature="2592:2805" placeholder="select PR.Id... product_type" />
+            <marker date="1466048281858" expanded="true" signature="3089:3131" placeholder="SELECT * fro... sector" />
+            <marker date="1466048281858" expanded="true" signature="3431:3487" placeholder="SELECT * FRO... product_type" />
+            <marker date="1466048281858" expanded="true" signature="3755:3791" placeholder="SELECT * fro... bid" />
+            <marker date="1466048281858" expanded="true" signature="4033:4050" placeholder="SELECT * FRO... bid" />
+            <marker date="1466048281858" expanded="true" signature="4328:4374" placeholder="SELECT * FRO... user" />
+            <marker date="1466048281858" expanded="true" signature="5214:5320" placeholder="INSERT INTO user... " />
+            <marker date="1466048281858" expanded="true" signature="5445:5566" placeholder="INSERT INTO user_profile... " />
+            <marker date="1466048281858" expanded="true" signature="6166:6208" placeholder="SELECT * fro... user" />
+            <marker date="1466048281858" expanded="true" signature="6268:6309" placeholder="SELECT * FRO... user" />
+            <marker date="1466048281858" expanded="true" signature="6563:6911" placeholder="select U.ID user" />
+            <marker date="1466048281858" expanded="true" signature="7634:7740" placeholder="UPDATE user_... " />
+            <marker date="1466048281858" expanded="true" signature="7834:7929" placeholder="UPDATE user " />
+            <marker date="1466048281858" expanded="true" signature="8438:8507" placeholder="SELECT * fro... user" />
+            <marker date="1466048281858" expanded="true" signature="8858:9324" placeholder="select U.Id user" />
+            <marker date="1466048281858" expanded="true" signature="9568:9594" placeholder="SELECT * FRO... product_type" />
+            <marker date="1466048281858" expanded="true" signature="10111:10174" placeholder="INSERT INTO notification... " />
+            <marker date="1466048281858" expanded="true" signature="10295:10403" placeholder="INSERT INTO user_notification... " />
+            <marker date="1466048281858" expanded="true" signature="10863:11125" placeholder="select N.Act... " />
+            <marker date="1466048281858" expanded="true" signature="11396:11462" placeholder="update user_... " />
+            <marker date="1466048281858" expanded="true" signature="11706:11740" placeholder="SELECT * FRO... bid" />
+            <marker date="1466048281858" expanded="true" signature="11986:12044" placeholder="SELECT * FRO... bid" />
+            <marker date="1466048281858" expanded="true" signature="12201:12246" placeholder="SELECT User_... user" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEW/html/ADMIN/Closed_Bids.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617">
-          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/VIEW/html/ADMIN/Single_Bid_Manager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-28.115385">
-          <caret line="79" column="19" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CONTROLLER/Admin_Close_bid.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.230769">
-          <caret line="80" column="38" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CONTROLLER/Admin_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6039783">
-          <caret line="423" column="8" selection-start-line="423" selection-start-column="8" selection-end-line="423" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.33273056">
+          <caret line="409" column="38" selection-start-line="409" selection-start-column="38" selection-end-line="409" selection-end-column="38" />
           <folding>
             <element signature="e#442#554#0#PHP" expanded="false" />
             <element signature="n#Check_User_Name_For_Edit#0;n#Admin_Controller#0;n#!!top" expanded="false" />
             <element signature="e#926#1009#0#PHP" expanded="false" />
-            <element signature="n#Admin_Edit_Profile#0;n#Admin_Controller#0;n#!!top" expanded="false" />
             <element signature="e#1857#1939#0#PHP" expanded="false" />
             <element signature="n#Add_Sector#0;n#Admin_Controller#0;n#!!top" expanded="false" />
             <element signature="e#2199#2299#0#PHP" expanded="false" />
@@ -958,33 +761,106 @@
             <element signature="n#Bid_Exists#0;n#Admin_Controller#0;n#!!top" expanded="false" />
             <element signature="e#6280#6428#0#PHP" expanded="false" />
             <element signature="n#Get_Bid_Participating_Users#0;n#Admin_Controller#0;n#!!top" expanded="false" />
-            <marker date="1466046379829" expanded="true" signature="626:694" placeholder="SELECT * FRO... user" />
-            <marker date="1466046379829" expanded="true" signature="1351:1482" placeholder="UPDATE user " />
-            <marker date="1466046379829" expanded="true" signature="2027:2076" placeholder="INSERT INTO sector... " />
-            <marker date="1466046379829" expanded="true" signature="2392:2440" placeholder="SELECT * FRO... sector" />
-            <marker date="1466046379829" expanded="true" signature="2880:2956" placeholder="INSERT INTO Product_Type... " />
-            <marker date="1466046379829" expanded="true" signature="3314:3367" placeholder="SELECT * FRO... Product_Type" />
-            <marker date="1466046379829" expanded="true" signature="3883:3925" placeholder="DELETE FROM " />
-            <marker date="1466046379829" expanded="true" signature="4532:4586" placeholder="DELETE FROM " />
-            <marker date="1466046379829" expanded="true" signature="5079:5180" placeholder="INSERT INTO bid... " />
-            <marker date="1466046379829" expanded="true" signature="5563:5599" placeholder="DELETE FROM " />
-            <marker date="1466046379829" expanded="true" signature="6060:6101" placeholder="SELECT * FRO... bid" />
-            <marker date="1466046379829" expanded="true" signature="6616:6662" placeholder="DELETE FROM " />
-            <marker date="1466046379829" expanded="true" signature="6752:6801" placeholder="SELECT * FRO... user_bid" />
-            <marker date="1466046379829" expanded="true" signature="6976:7022" placeholder="Delete from " />
-            <marker date="1466046379829" expanded="true" signature="7131:7189" placeholder="SELECT * FRO... user_notification" />
-            <marker date="1466046379829" expanded="true" signature="7373:7437" placeholder="Delete from " />
-            <marker date="1466046379829" expanded="true" signature="7539:7593" placeholder="SELECT * FRO... user_order" />
-            <marker date="1466046379829" expanded="true" signature="7771:7822" placeholder="Delete from " />
-            <marker date="1466046379829" expanded="true" signature="7926:7979" placeholder="SELECT * FRO... user_product" />
-            <marker date="1466046379829" expanded="true" signature="8147:8188" placeholder="Delete from " />
-            <marker date="1466046379829" expanded="true" signature="8289:8327" placeholder="DELETE FROM " />
-            <marker date="1466046379829" expanded="true" signature="8853:9061" placeholder="select UB.Id... user_bid" />
-            <marker date="1466046379829" expanded="true" signature="9502:9567" placeholder="UPDATE bid s... " />
-            <marker date="1466046379829" expanded="true" signature="9676:9971" placeholder="select B.Id bid" />
-            <marker date="1466046379829" expanded="true" signature="10322:10385" placeholder="INSERT INTO notification... " />
-            <marker date="1466046379829" expanded="true" signature="10506:10613" placeholder="INSERT INTO user_notification... " />
+            <marker date="1466048780177" expanded="true" signature="626:694" placeholder="SELECT * FRO... user" />
+            <marker date="1466048780177" expanded="true" signature="1351:1482" placeholder="UPDATE user " />
+            <marker date="1466048780177" expanded="true" signature="2027:2076" placeholder="INSERT INTO sector... " />
+            <marker date="1466048780177" expanded="true" signature="2392:2440" placeholder="SELECT * FRO... sector" />
+            <marker date="1466048780177" expanded="true" signature="2880:2956" placeholder="INSERT INTO Product_Type... " />
+            <marker date="1466048780177" expanded="true" signature="3314:3367" placeholder="SELECT * FRO... Product_Type" />
+            <marker date="1466048780177" expanded="true" signature="3883:3925" placeholder="DELETE FROM " />
+            <marker date="1466048780177" expanded="true" signature="4532:4586" placeholder="DELETE FROM " />
+            <marker date="1466048780177" expanded="true" signature="5079:5180" placeholder="INSERT INTO bid... " />
+            <marker date="1466048780177" expanded="true" signature="5563:5599" placeholder="DELETE FROM " />
+            <marker date="1466048780177" expanded="true" signature="6060:6101" placeholder="SELECT * FRO... bid" />
+            <marker date="1466048780177" expanded="true" signature="6616:6662" placeholder="DELETE FROM " />
+            <marker date="1466048780177" expanded="true" signature="6752:6801" placeholder="SELECT * FRO... user_bid" />
+            <marker date="1466048780177" expanded="true" signature="6976:7022" placeholder="Delete from " />
+            <marker date="1466048780177" expanded="true" signature="7131:7189" placeholder="SELECT * FRO... user_notification" />
+            <marker date="1466048780177" expanded="true" signature="7373:7437" placeholder="Delete from " />
+            <marker date="1466048780177" expanded="true" signature="7539:7593" placeholder="SELECT * FRO... user_order" />
+            <marker date="1466048780177" expanded="true" signature="7771:7822" placeholder="Delete from " />
+            <marker date="1466048780177" expanded="true" signature="7926:7979" placeholder="SELECT * FRO... user_product" />
+            <marker date="1466048780177" expanded="true" signature="8147:8188" placeholder="Delete from " />
+            <marker date="1466048780177" expanded="true" signature="8289:8327" placeholder="DELETE FROM " />
+            <marker date="1466048780177" expanded="true" signature="8853:9061" placeholder="select UB.Id... user_bid" />
+            <marker date="1466048780177" expanded="true" signature="9502:9567" placeholder="UPDATE bid s... " />
+            <marker date="1466048780177" expanded="true" signature="9676:9970" placeholder="select B.Id bid" />
+            <marker date="1466048780177" expanded="true" signature="10257:10388" placeholder="UPDATE user " />
+            <marker date="1466048780177" expanded="true" signature="10411:10425" placeholder="UPDATE bid S... " />
+            <marker date="1466048780177" expanded="true" signature="10411:10427" placeholder="UPDATE bid S... " />
+            <marker date="1466048780177" expanded="true" signature="10411:10447" placeholder="UPDATE bid S... " />
+            <marker date="1466048780177" expanded="true" signature="10411:10457" placeholder="UPDATE bid S... " />
+            <marker date="1466048780177" expanded="true" signature="10411:10466" placeholder="UPDATE bid S... " />
+            <marker date="1466048780177" expanded="true" signature="10615:10678" placeholder="INSERT INTO notification... " />
+            <marker date="1466048780177" expanded="true" signature="10799:10906" placeholder="INSERT INTO user_notification... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLER/Admin_Close_bid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5465517">
+          <caret line="80" column="39" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/ADMIN/Single_Bid_Manager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51724136">
+          <caret line="48" column="56" selection-start-line="48" selection-start-column="56" selection-end-line="48" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/ADMIN/Closed_Bids.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79927665">
+          <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/ADMIN/Admin_Header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5275862">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLER/Participate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="e#601#665#0#PHP" expanded="false" />
+            <element signature="e#861#983#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/css/custome_common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37758622">
+          <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/html/ADMIN/Admin_Menu2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEW/css/Admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40689656">
+          <caret line="159" column="17" selection-start-line="159" selection-start-column="17" selection-end-line="159" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
