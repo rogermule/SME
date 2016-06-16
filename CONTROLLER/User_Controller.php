@@ -406,7 +406,9 @@ class User_Controller{
 					P.Id as Product_Id,
 					P.Name as Product_Name,
 					S.Name as Sector_Name,
-					UP.Id as User_Product_Id
+					UP.Id as User_Product_Id,
+					UP.Name as Name,
+					UP.Price as Price
 				from
 				    user as U
 				        inner join

@@ -31,6 +31,7 @@ $Bids = $Admin->GetAllClosedBids();
 				<th>Description</th>
 				<th>Opened On</th>
 				<th>Closed On</th>
+				<th>Winner</th>
 				</thead>
 				<tbody>
 
@@ -43,6 +44,7 @@ $Bids = $Admin->GetAllClosedBids();
 				$bid_Id = "";
 				$Opened_On = "";
 				$Closed_On = "";
+				$Winner = "";
 
 
 				if($Bids){
@@ -53,6 +55,7 @@ $Bids = $Admin->GetAllClosedBids();
 						$bid_Id = $bids['Id'];
 						$Opened_On = $bids['Opened_On'];
 						$Closed_On = $bids['Closed_On'];
+						$Winner = $bids['Winner'];
 						?>
 						<tr>
 							<td><?php echo($count);?></td>
@@ -60,7 +63,7 @@ $Bids = $Admin->GetAllClosedBids();
 							<td><?php echo($bid_description);?></td>
 							<td><?php echo($Opened_On);?></td>
 							<td><?php echo($Closed_On);?></td>
-
+							<td><?php echo($Winner);?></td>
 						</tr>
 						<?php
 					}

@@ -49,8 +49,8 @@ class SME_Controller extends User_Controller{
 	 * @return bool|mysqli_result
 	 * adds the product type for an SME user
 	 */
-	function Add_Product_Type_To_List($User_Id,$Product_Id){
-		$query = "INSERT INTO user_product (User_Id,Product_Id) values('$User_Id','$Product_Id')";
+	function Add_Product_Type_To_List($User_Id,$Product_Id,$Product_Name,$Price){
+		$query = "INSERT INTO user_product (User_Id,Product_Id,Name,Price) values('$User_Id','$Product_Id','$Product_Name','$Price')";
 		$result = mysqli_query($this->getDbc(),$query);
 		if($result){
 			return TRUE;

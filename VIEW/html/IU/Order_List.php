@@ -53,10 +53,9 @@
 				<th>#</th>
 
 				<th>Ordered To</th>
-				<th>Product Type</th>
 				<th>Amount</th>
+				<th>Product Type</th>
 				<th>Status</th>
-
 
 				</thead>
 				<tbody>

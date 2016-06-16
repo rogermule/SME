@@ -68,24 +68,40 @@
 					<div class="col-sm-5">
 						<select class="form-control " id="Product_ID" name="Product_Id">
 							<?php
-
-							$Products_Sel_ID ="";
-							$Products_Sel_Name = "";
-							if($Products_Select){
-								while($PS = mysqli_fetch_array($Products_Select,MYSQLI_ASSOC)){
-									$Products_Sel_ID = $PS['Id'];
-									$Products_Sel_Name = $PS['Name'];
-									?>
-									<option value="<?php echo($Products_Sel_ID);?>">
-										<?php echo($Products_Sel_Name);?></option>
-									<?php
+								$Products_Sel_ID ="";
+								$Products_Sel_Name = "";
+								if($Products_Select){
+									while($PS = mysqli_fetch_array($Products_Select,MYSQLI_ASSOC)){
+										$Products_Sel_ID = $PS['Id'];
+										$Products_Sel_Name = $PS['Name'];
+										?>
+										<option value="<?php echo($Products_Sel_ID);?>">
+											<?php echo($Products_Sel_Name);?></option>
+										<?php
+									}
 								}
-							}
 							?>
 						</select>
 					</div>
 
 				</div>
+				<div class="form-group">
+					<label for="Building" class="col-sm-4 control-label">Product Name</label>
+					<div class="col-sm-5">
+						 <input class="form-control" type="text" name="Name" placeholder="Enter product name">
+
+					</div>
+
+				</div>
+				<div class="form-group">
+					<label for="Building" class="col-sm-4 control-label">Price </label>
+					<div class="col-sm-5">
+						<input class="form-control" type="text" name="Price" placeholder="Enter product name">
+
+					</div>
+
+				</div>
+
 
 				<div class="form-group margin_top_30">
 
@@ -115,6 +131,8 @@
 				<th>#</th>
 				<th>Product Name</th>
 				<th>Sector Name</th>
+				<th>Name</th>
+				<th>Price</th>
 				<th>Manage</th>
 
 
@@ -127,6 +145,8 @@
 				$Product_Id = "";
 				$Product_Name = "";
 				$User_Product_Id = "";
+				$Name = "";
+				$Price = "";
 				$Sector_Name = "";
 
 				if($Products){
@@ -136,12 +156,16 @@
 						$Sector_Name = $pro['Sector_Name'];
 						$Product_Id = $pro['Product_Id'];
 						$User_Product_Id = $pro['User_Product_Id'];
+						$Name = $pro['Name'];
+						$Price = $pro['Price'];
 
 						?>
 						<tr>
 							<td><?php echo($count);?></td>
 							<td><?php echo($Product_Name);?></td>
 							<td><?php echo($Sector_Name);?></td>
+							<td><?php echo($Name);?></td>
+							<td><?php echo($Price);?></td>
 
 							<td>
 

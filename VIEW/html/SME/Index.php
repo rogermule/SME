@@ -57,20 +57,16 @@
 				<th>Status</th>
 				<th>Manage</th>
 
-
 				</thead>
 				<tbody>
 
 				<?php
-
 				$count = 0;
 				$Order_Id = "";
 				$Product_Name = "";
 				$Amount = "";
 				$Ordered_To_Name = "";
 				$Order_Status = "";
-
-
 
 				if($orders){
 					while($ord = mysqli_fetch_array($orders,MYSQLI_ASSOC)){
@@ -99,7 +95,13 @@
 								</div>
 							</td>
 							<td>
-								<a class="btn btn-info btn-sm" href="Manage_Orders.php?User_Id=<?php echo($User_Id);?>&Order_Id=<?php echo($Order_Id);?>">Manage</a>
+								<?php
+									if($Order_Status == 0){
+										?>
+										<a class="btn btn-info btn-sm" href="Manage_Orders.php?User_Id=<?php echo($User_Id);?>&Order_Id=<?php echo($Order_Id);?>">Manage</a>
+										<?php
+									}
+								?>
 							</td>
 						</tr>
 						<?php

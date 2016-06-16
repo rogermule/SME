@@ -421,6 +421,8 @@ class Admin_Controller extends User_Controller{
 		$Bid_Name = $result2Arry['Bid_Name'];
 		$Action = "You Have Won the ".$Bid_Name." Bid";
 
+		
+
 		$notification = new Notification($Action,$winner_Id);
 
 		//insert into the database

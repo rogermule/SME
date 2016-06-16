@@ -72,17 +72,28 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 			}
 
 
+			//get the name
+			if(empty($_POST['Name'])){
+				$errors[] = "Name Should be filed";
+			}
+			else{
+				$Name = $_POST['Name'];
+			}
+
+			//get the price of their product
+			if(empty($_POST['Price'])){
+				$errors[] = "Price of the product should be filled";
+			}
+			else{
+				$Price = $_POST['Price'];
+			}
+
 			if(empty($errors)){
-				if(!$SME_Con->Check_Product_Exists($User_Id,$Product_Id)){
-					if($SME_Con->Add_Product_Type_To_List($User_Id,$Product_Id)){
-						admin_redirect_success();
-					}
-					else{
-						admin_place_redirect(Error_Type::DATA_BASE);
-					}
+				if($SME_Con->Add_Product_Type_To_List($User_Id,$Product_Id,$Name,$Price)){
+					admin_redirect_success();
 				}
 				else{
-					admin_place_redirect(Error_Type::SAME_PRODUCT_TYPE_NAME);
+					admin_place_redirect(Error_Type::DATA_BASE);
 				}
 			}
 			else{
