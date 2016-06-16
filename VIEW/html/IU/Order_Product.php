@@ -78,7 +78,7 @@
 							if($Products){
 								while($pro = mysqli_fetch_array($Products,MYSQLI_ASSOC)){
 									$Product_Id = $pro['Product_Id'];
-									$Product_Name = $pro['Product_Name'];
+									$Product_Name = $pro['Name'];
 									?>
 									<option  value="<?php echo($Product_Id);?>">
 										<?php echo($Product_Name);?></option>

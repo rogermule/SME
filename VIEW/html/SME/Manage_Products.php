@@ -129,7 +129,7 @@
 			<table class="table table-hover">
 				<thead>
 				<th>#</th>
-				<th>Product Name</th>
+				<th>Product Type</th>
 				<th>Sector Name</th>
 				<th>Name</th>
 				<th>Price</th>
