@@ -39,7 +39,7 @@ $Bids = $Admin->GetAllOpenedBids();
 				?>
 				<div class="alert alert-success alert-dismissable">
 					<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-					<strong>You have added a new Sector successfully.</strong>
+					<strong>You have added a new Bid successfully.</strong>
 
 				</div>
 
@@ -61,7 +61,9 @@ $Bids = $Admin->GetAllOpenedBids();
 			<form class="form-horizontal"
 			      role="form"
 			      action="../../../CONTROLLER/Admin_Add_Bid.php"
-			      method="POST">
+			      method="POST"
+				  enctype = "multipart/form-data"
+			>
 
 				<div class="form-group">
 					<label for="SubCity_Name" class="col-sm-4 control-label">Bid Name</label>
@@ -80,10 +82,19 @@ $Bids = $Admin->GetAllOpenedBids();
 					</div>
 				</div>
 
+
+				<div class="form-group">
+					<label for="profile_pic" class="col-sm-4 control-label">Upload Picture</label>
+					<div class="col-sm-7">
+						<input class="input-sm" type = "file" name = "profilepic"><br/>
+					</div>
+				</div>
+
+
 				<div class="form-group margin_top_30">
 
 					<div class="col-sm-2 col-lg-offset-4">
-						<button type="submit" class="btn btn-success btn-block"><strong>Add Bid</strong>
+						<button type="submit" class="btn btn-success btn-block" name="uploadpic"><strong>Add Bid</strong>
 						</button>
 
 					</div>
@@ -109,6 +120,7 @@ $Bids = $Admin->GetAllOpenedBids();
 				<th>#</th>
 				<th>Bid Name</th>
 				<th>Description</th>
+				<th>Image</th>
 				<th>Manage</th>
 				</thead>
 				<tbody>
@@ -120,19 +132,24 @@ $Bids = $Admin->GetAllOpenedBids();
 				$bid_name = "";
 				$bid_description = "";
 				$bid_Id = "";
-
+				$bid_image_path = "";
 
 				if($Bids){
 					while($bids = mysqli_fetch_array($Bids,MYSQLI_ASSOC)){
 						$count++;
 						$bid_name = $bids['Name'];
 						$bid_description = $bids['Description'];
+						$bid_image_path = $bids['Picture'];
 						$bid_Id = $bids['Id'];
 						?>
 						<tr>
 							<td><?php echo($count);?></td>
 							<td><?php echo($bid_name);?></td>
 							<td><?php echo($bid_description);?></td>
+							<td><?php if(!is_null($bid_image_path)){ ?>
+									<a href="../../user_photos/<?php echo($bid_image_path);?>"><img src="../../user_photos/<?php echo($bid_image_path);?>" class="img-circle" width="100" height="100" /></a>
+								<?php } ?>
+							</td>
 							<td>
 								<a class="btn btn-danger btn-xs"
 								   href="Delete_Bid.php?Bid_Id=<?php echo($bid_Id);?>">Delete</a>

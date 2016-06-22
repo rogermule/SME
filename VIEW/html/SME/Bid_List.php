@@ -33,7 +33,7 @@ $bids = $SME_Con->GetAllOpenedBids();
 				<th>Bid Name</th>
 				<th>Description</th>
 				<th>Opened On</th>
-				<th>Closed On</th>
+				<th>Image</th>
 				<th>Participate</th>
 				</thead>
 				<tbody>
@@ -46,6 +46,7 @@ $bids = $SME_Con->GetAllOpenedBids();
 				$Bid_Description = "";
 				$Opened_On = "";
 				$Closed_On = "";
+				$Bid_Image = "";
 				$Status = "";
 				$count = 0;
 
@@ -57,7 +58,7 @@ $bids = $SME_Con->GetAllOpenedBids();
 						$Bid_Name = $bid['Name'];
 						$Bid_Description = $bid['Description'];
 						$Opened_On = $bid['Opened_On'];
-						$Closed_On = $bid['Closed_On'];
+						$Bid_Image = $bid['Picture'];
 						$Status = $bid['Description'];
 						?>
 						<tr>
@@ -65,7 +66,11 @@ $bids = $SME_Con->GetAllOpenedBids();
 							<td><?php echo($Bid_Name);?></td>
 							<td><?php echo($Bid_Description);?></td>
 							<td><?php echo($Opened_On);?></td>
-							<td><?php echo($Closed_On);?></td>
+							<td>
+<!--								--><?php //echo($Bid_Image);?>
+								<a href="../../user_photos/<?php echo($Bid_Image);?>"><img src="../../user_photos/<?php echo($Bid_Image);?>" width="100" height="100" class="img-circle"/></a>
+
+							</td>
 							<td><?php
 
 								if($Status == 1){

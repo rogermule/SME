@@ -221,7 +221,9 @@ class Admin_Controller extends User_Controller{
 	function Add_Bid(Bid $bid){
 		$bid_name = $bid->getName();
 		$bid_description = $bid->getDescription();
-	$query = "INSERT INTO bid (Name,Description,Status,Opened_On) VALUES ('$bid_name','$bid_description','0',now())";
+		$bid_picture = $bid->getPicture();
+
+		$query = "INSERT INTO bid (Name,Description,Status,Opened_On,Picture) VALUES ('$bid_name','$bid_description','0',now(),'$bid_picture')";
 		$result = mysqli_query($this->getDbc(),$query);
 		if($result){
 			return true;
@@ -421,10 +423,6 @@ class Admin_Controller extends User_Controller{
 		$Bid_Name = $result2Arry['Bid_Name'];
 		$Bid_Id = $result2Arry["Bid_Id"];
 		$Action = "You Have Won the ".$Bid_Name." Bid";
-
-		"UPDATE user
-			      SET User_Name='$this->User_Name',User_Password=sha1('$this->User_Password')
-			      WHERE Id='$this->User_ID'";
 
 
 		$updateQuery = "UPDATE bid SET Winner = '$winner_Id' WHERE Id='$Bid_Id'";
